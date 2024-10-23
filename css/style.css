@@ -1,0 +1,251 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(208, 198, 186);
+    margin: 0;
+    padding: 0;
+}
+
+/* de header, dus logo en achtergrond*/
+header {
+    background-color: rgb(157, 77, 77);
+}
+.RetroRethinkLogo img {
+    width: 35%;
+    margin-left: 7.6em;
+    margin-top: 0.5em;
+}
+
+/* de icoontjes naar andere pagina`s in de nav*/
+.image-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: -1.3em;
+    margin-right: 1.4em;
+}
+
+.image-links img {
+    max-width: 90px;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(157, 77, 77);
+    border: 0.3em solid rgb(174, 125, 42);
+}
+/* tot hier */
+
+/* Home pagina tekst */
+.homepagina {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interieurfoto {
+    width: 9em;
+    height: 15em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.text-box p {
+    font-size: 16px;
+    margin-top: 2em;
+    margin-right: 1.5em;
+}
+/* tot hier */
+
+/* home pagina tekst 2 */
+.tasfoto {
+    width: 40%;
+    margin-left: 6.8em;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.tekst1 h4 {
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: -0.8em;
+}
+
+.tekst1 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.tekst1 li {
+    margin-left: 8.8em;
+    list-style: none;
+}
+
+.tekst1 img {
+    width: 40%;
+}
+/* tot hier */
+
+/* home pagina tekst 2 */
+.etalagefoto {
+    width: 40%;
+    margin-left: 6.6em;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-top: 2.5em;
+}
+
+.tekst2 h4 {
+    text-align: center;
+    margin-top: 0.1em;
+    margin-bottom: -0.8em;
+}
+
+.tekst2 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.tekst2 li {
+    margin-left: 8.6em;
+    list-style: none;
+}
+
+.tekst2 img {
+    width: 40%;
+}
+/* tot hier */
+
+/* info pagina hoofdtekst */
+.infotekst1 h1 {
+    text-align: center;
+}
+
+.infotekst1 p {
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -1em;
+}
+/* tot hier */
+
+/* info foto en tekst 2 */
+.marktfoto {
+    width: 9em;
+    height: 15em;
+    float: inline-start;
+    border: 0.3em solid rgb(174, 125, 42);
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.infopagina {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.infotekst2 h4 {
+    margin-bottom: 0em;
+}
+
+.infotekst2 p {
+    margin-top: 0.5em;
+    font-size: 14px;
+    margin-right: 1em;
+}
+/* tot hier */
+
+/* info foto en tekst 3 */
+.shirtillu {
+    width: 35%;
+    float: inline-end;
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.rokillu {
+    width: 45%;
+    float: inline-start;
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.infotekst3 h4 {
+    text-align: center;
+    margin-left: 1em;
+}
+
+.infotekst3 p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: -0.6em;
+}
+/* tot hier */
+
+/* ook info pagina, illustraties */
+.illustraties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+}
+
+.illustraties img {
+    max-width: 100px;
+    height: auto;
+}
+/* tot hier */
+
+/* contactgegevens op contact pagina */
+.contactgegevens {
+    text-align: center;
+}
+
+.contactgegevens h3 {
+    margin: 0em;
+    margin-top: 1em;
+}
+
+.contactgegevens p {
+    margin: 0.5em;
+}
+
+.contactgegevens h2 {
+    margin-top: 2em;
+}
+
+.locaties {
+    width: 93%;
+    margin-left: 0.55em;
+    margin-top: -0.8em;
+    border: 0.3em solid rgb(174, 125, 42);
+}
+/* tot hier */
+
+footer {
+    margin-top: 4em;
+    background-color: rgb(157, 77, 77);
+    text-align: center;
+    padding: 0.01em;
+    margin-bottom: -2em;
+    line-height: 0.7em;
+    font-size: 12px;
+}
